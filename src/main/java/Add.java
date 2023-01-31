@@ -1,6 +1,5 @@
 
-public class Add {
-    /**
+/**
      * Let's say we're making a calculator app!
      *
      * Instead of returning 0, this method should return the sum of two integers (ints).
@@ -10,7 +9,12 @@ public class Add {
      * @param b second number to be added.
      * @return the sum of a and b.
      */
+    public class Add {
+        public static void main(String[] args){}
+        
     public int addNumbers(int a, int b){
-        return 0;
+        return (a + b);
     }
 }
+
+
